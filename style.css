@@ -92,9 +92,10 @@ body{
     font-weight:bolder ;  
     font-size: larger; 
 }
-@media (max-width: 320px){
+@media only screen and (max-width:539px) and (min-width: 320px){
    
     #nave{
+        
         display:flex;
         flex-direction:column;
         position: fixed;
