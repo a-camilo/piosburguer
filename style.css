@@ -6,6 +6,7 @@
 body{
     
     background-image: url(img/parede.jpg);
+    background-color: #312d2a;
     background-attachment: fixed;
     background-repeat:no-repeat; 
     background-size:auto;
