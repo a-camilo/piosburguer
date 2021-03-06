@@ -46,7 +46,8 @@ body{
 .descricao{
     padding: 0px;
     margin: auto;
-    max-width: 100%;
+    max-width: 40%;
+    
 }
 .descricao h2{
     color: chartreuse;
@@ -97,6 +98,37 @@ body{
     }
     
 }
+@media (max-width:1119px){
+    .descricao{
+        padding: 0px;
+        margin: auto;
+        max-width: 70%;
+        position: relative;
+    }
+    .descricao p{
+        margin: 20px;
+        color: violet;
+        text-align:justify;
+        font-size: 15pt;
+    }
+    
+}
+@media (max-width:640px){
+    .descricao{
+        padding: 0px;
+        margin: auto;
+        max-width: 60%;
+        position: relative;
+    }
+    .descricao p{
+        margin: 20px;
+        color: violet;
+        text-align:justify;
+        font-size: 15pt;
+    }
+    
+}
+
 
 
 
