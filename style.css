@@ -26,7 +26,7 @@ body{
     padding:13px;
     margin-bottom:10px;  
     color:yellow; 
-    background-color: rgb(250, 126, 43);
+    background-color: #ff6c00;
     border-top-left-radius:20px;
     border-top-right-radius:20px;
     
@@ -35,10 +35,9 @@ body{
     margin:0; 
     padding:5px;
     color:yellow; 
-    background-color: rgb(250, 126, 43);
+    background-color: #ff6c00;
     border-bottom-left-radius:20px;
     border-bottom-right-radius:20px;
-    
 }
 
 /* Ilustração dos Hamburguers */
@@ -80,11 +79,10 @@ body{
 /* Roda pé */
 #footer{
     display:flex;
-    background-color:rgb(250, 126, 43);
+    background-color:#ff6c00;
     border-top:solid 5px rgb(221, 252, 48);
     height: auto; 
-    position: relative; 
-    
+    position: relative;    
 } 
 #footer p{
     margin: 10px auto;
